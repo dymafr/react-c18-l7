@@ -8,7 +8,7 @@ function AdminRecipes() {
     <div className="d-flex flex-column flex-fill">
       <h4 className="mb-20">Gestion des recettes</h4>
       <div className="flex-fill d-flex flex-column">
-        <AdminRecipesNav></AdminRecipesNav>
+        <AdminRecipesNav />
         <div className="flex-fill d-flex flex-column">
           <Suspense>
             <Outlet />
